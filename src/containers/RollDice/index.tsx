@@ -5,12 +5,19 @@ import Container from './styles';
 
 const RollDice: React.FC = () => {
   const [dieOne, setDieOne] = useState<IDie['face']>('one');
-  const [dieTwo, setDieTwo] = useState<IDie['face']>('one');
+  const [dieTwo, setDieTwo] = useState<IDie['face']>('three');
+  const [isRolling, setIsRolling] = useState(false);
 
   function rollTheDices() {
     const sides: IDie['face'][] = ['one', 'two', 'three', 'four', 'five', 'six'];
-    setDieOne(sides[Math.floor(Math.random() * sides.length)]);
-    setDieTwo(sides[Math.floor(Math.random() * sides.length)]);
+    setIsRolling(true);
+    setTimeout(() => {
+      setDieOne(sides[Math.floor(Math.random() * sides.length)]);
+      setDieTwo(sides[Math.floor(Math.random() * sides.length)]);
+    }, 350);
+    setTimeout(() => {
+      setIsRolling(false);
+    }, 1000);
   }
 
   useEffect(() => {
@@ -18,10 +25,12 @@ const RollDice: React.FC = () => {
   }, []);
 
   return (
-    <Container>
+    <Container isRolling={isRolling}>
       <Die face={dieOne} />
       <Die face={dieTwo} />
-      <button type="button" onClick={rollTheDices}>click to Roll The Dice!</button>
+      <button type="button" onClick={rollTheDices} disabled={isRolling}>
+        {isRolling ? 'Rolling...' : 'Click to roll the dice!'}
+      </button>
     </Container>
   );
 };
