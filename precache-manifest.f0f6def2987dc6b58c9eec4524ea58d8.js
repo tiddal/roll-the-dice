@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "63373f287a90fa4eb70ef2ff13d65d8c",
+    "revision": "d967dc2b3fcc6b8d5af8d79d9067934e",
     "url": "/roll-the-dice/index.html"
   },
   {
