@@ -1,9 +1,10 @@
 import React from 'react';
+import Die from '../components/Die';
 
-function App() {
+function App(): JSX.Element {
   return (
     <div>
-      Ready to Go
+      <Die face="six" />
     </div>
   );
 }

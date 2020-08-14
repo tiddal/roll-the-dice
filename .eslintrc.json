@@ -47,7 +47,8 @@
         "extensions": [
           ".ts",
           ".tsx",
-          ".json"
+          ".json",
+          ".js"
         ]
       }
     }
