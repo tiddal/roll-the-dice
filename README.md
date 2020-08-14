@@ -1,48 +1,59 @@
 <!-- omit in toc -->
-# Project Name
+# Roll The Dice - The Modern React Bootcamp
 
 <img src=".github/assets/banner.png" />
 
 <!-- omit in toc -->
-## Project Description
+## Just an exercise to practice state in React
 
 <!-- omit in toc -->
 ### Table of Contents
 
-- [📜 About](#-about)
+- [📃 About](#-about)
 - [🛠️ Requirements](#️-requirements)
 - [⚙️ Install](#️-install)
 - [▶️ Run](#️-run)
-- [💻 Tools and Technologies](#-tools-and-technologies)
+- [🚀 Tools & Technologies](#-tools--technologies)
+- [⚖️ License](#️-license)
 
-### 📜 About
+## 📃 About
 
-Tell me more about your project, why are you developing it? What problem does it solve?
+This project is part of a series of projects developed in Colt Steele's course - The Modern React Bootcamp. This is my iteration and it differs in the technologies I used and the styles I made.
 
-### 🛠️ Requirements
+Just another pair of dice for you to shuffle.
 
-What do I need to install and run this app?
+## 🛠️ Requirements
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en/)
-- ...
+- [Yarn](https://yarnpkg.com/)
 
-### ⚙️ Install
+## ⚙️ Install
 
-How do I install it?
+To install this project you just have to run the following commands in your terminal:
 
-### ▶️ Run
+1. `git clone https://github.com/tiddal/roll-the-dice.git`
+2. `yarn`
 
-How do I run it?
+## ▶️ Run
 
-### 💻 Tools and Technologies
+Run the command `yarn start` and have fun 😀
 
-What tools and technologies are you using?
+## 🚀 Tools & Technologies
 
 - [HTML5](https://developer.mozilla.org/pt-PT/docs/Web/HTML/HTML5)
 - [CSS3](https://www.w3schools.com/css/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org/)
 - [Node.js](https://nodejs.org/en/)
-- [Synxty CRA Template](https://www.npmjs.com/package/@synxty/cra-template-react-template)
+- **[Synxty CRA Template](https://www.npmjs.com/package/@synxty/cra-template-react-template)**
 - [styled-components](https://styled-components.com/)
+- [react-icons](https://www.npmjs.com/package/react-icons)
+
+## ⚖️ License
+
+This project is licensed under the MIT license. See [LICENSE](LICENSE) to learn more.
+
+---
+
+Thank you, [tiddal](https://github.com/tiddal)
