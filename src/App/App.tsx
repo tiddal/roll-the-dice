@@ -1,10 +1,10 @@
 import React from 'react';
-import Die from '../components/Die';
+import RollDice from '../containers/RollDice';
 
 function App(): JSX.Element {
   return (
     <div>
-      <Die face="six" />
+      <RollDice />
     </div>
   );
 }

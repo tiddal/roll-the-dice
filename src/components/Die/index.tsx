@@ -5,7 +5,7 @@ import {
 } from 'react-icons/fa';
 import Container from './styles';
 
-interface IDie {
+export interface IDie {
   face: 'one' | 'two' | 'three' | 'four' | 'five' | 'six';
 }
 
