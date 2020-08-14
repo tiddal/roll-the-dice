@@ -21,7 +21,7 @@ const RollDice: React.FC = () => {
     <Container>
       <Die face={dieOne} />
       <Die face={dieTwo} />
-      <button type="button" onClick={rollTheDices}>Roll Dice!</button>
+      <button type="button" onClick={rollTheDices}>click to Roll The Dice!</button>
     </Container>
   );
 };
